@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body{
+    background-color: rgb(91, 229, 183);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    margin: 0 auto;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px double blue;
+    margin-bottom: 25px;
+}
+
+
+ fieldset{
+    border: 5px solid red;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+margin: 0 auto;
+}
+
+label, input, select,option{
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+ 
+legend{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+button {
+    width: 50%;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+table{
+    border: 5px double;
+    text-align: center;
+    font-family: monospace;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+table th,td{
+    border-bottom: 5px solid ;
+}
+
+table img{
+    width: 100%;
+}
+
+.regresar{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+}
