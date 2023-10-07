@@ -166,9 +166,9 @@
                             </label>
 
                             <select name="tipo" id="tipo">
-                                <option value="0">Tipo de inseminacion</option>
-                                <option value="Inseminacion">Inseminacion</option>
-                                <option value="Toro">Toro</option>
+                                <option>Tipo de inseminacion</option>
+                                <option>Inseminacion</option>
+                                <option>Toro</option>
                             </select>
 
 
