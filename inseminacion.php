@@ -10,6 +10,8 @@ $tipo = $_POST['tipo'];
 $sql = "UPDATE `vacas` SET `fecha_inseminacion` = '$inseminacion', `fecha_secado` = '$secada', `fecha_parto` = '$parto' WHERE `vacas`.`id` = '$nombre'";
 $resultadoInseminacion = mysqli_query($conexion, $sql) or trigger_error("query failed" . mysqli_error($conexion), E_USER_ERROR);
 
+$sql2 = "UPDATE `vacas` SET `tipo_inseminacion` = 'toro' WHERE `vacas`.`id` = '$nombre'";
+$resultadoInseminacion2 = mysqli_query($conexion, $sql2) or trigger_error("query failed" . mysqli_error($conexion), E_USER_ERROR);
 ?>
 
 <!DOCTYPE html>
